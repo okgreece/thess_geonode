@@ -56,4 +56,3 @@ LOCALE_PATHS = (
 INSTALLED_APPS = INSTALLED_APPS + ('thess_geonode',)
 
 TEMPLATES[0]['DIRS'].insert(0, os.path.join(LOCAL_ROOT, "templates"))
-
