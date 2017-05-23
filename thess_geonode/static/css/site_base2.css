@@ -1,0 +1,42 @@
+.home .jumbotron {
+    background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)),url(../img/white-tower.jpg) no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #FFFFFF;
+    margin-bottom:0;
+    padding:18.5em 0 4.75em;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.4);
+   /* background-color: #52859F*/ /*background-color:none !important;*/
+    /*background-color:none !important;*/
+}
+
+.navbar-brand {
+    background: url(../img/site-logo-en.png) 0 10px no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    height: 65px;
+    width: 250px;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('Open-Sans-Bold'), url(../fonts/OpenSans-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('Open-Sans-Light'), url(../fonts/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('Open-Sans-Regular'), url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}

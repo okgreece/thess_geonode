@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block extra_head %}
+	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=greek,greek-ext,latin-ext" rel="stylesheet">-->
+ {% if request.LANGUAGE_CODE == "el" %}
+ <link href="{{ STATIC_URL }}css/site_base.css" rel="stylesheet"/>
+ {% else %}
+ <link href="{{ STATIC_URL }}css/site_base2.css" rel="stylesheet"/>
+ {% endif %}  
+      
+{% endblock %}
+{% block extra_tab %}
+{% comment %}
+Add Tab for Third Party Apps
+<li>
+ <a href="{{ PROJECT_ROOT }}app">App</a>
+</li>
+{% endcomment %}
+{% endblock %}
+  
+{% block footer %}
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>{% trans "Data" %}</li>
+            <li><a href="{% url "layer_browse" %}">{% trans "Layers" %}</a></li>
+            <li><a href="{% url "document_browse" %}">{% trans "Documents" %}</a></li>
+            {% if user.is_authenticated %}
+            <li><a href="{% url "services" %}">{% trans "Remote Services" %}</a></li>
+            <li><a href="{% url "layer_upload" %}">{% trans "Upload Layer" %}</a></li>
+            <li><a href="{% url "document_upload" %}">{% trans "Upload Document" %}</a></li>
+            <li><a href="{% url "register_service" %}">{% trans "Add Remote Service" %}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>{% trans "Maps" %}</li>
+            <li><a href="{% url "maps_browse" %}">{% trans "Explore Maps" %}</a></li>
+            {% if user.is_authenticated %}
+            <li> <a href="{% url "new_map" %}">{% trans "Create Map" %}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+		<div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>{% trans "About" %}</li>
+            <li><a href="{% url "profile_browse" %}">{% trans "People" %}</a></li>
+            <li><a href="{% url "group_list" %}">{% trans "Groups" %}</a></li>
+            {% if perms.announcements.can_manage %}
+            <li><a href="{% url "announcements_list" %}">{% trans "Announcements" %}</a></li>
+            {% endif %}
+            {% if user.is_superuser %}
+            <li><a href="/admin/people/profile/add/">{% trans "Add User" %}</a></li>
+            <li><a href="{% url "account_invite_user" %}">{% trans "Invite User" %}</a></li>
+            <li><a href="{% url "group_create" %}">{% trans "Create Group" %}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+        <div class="col-md-6 text-right">
+          <ul class="list-unstyled">
+            <li>Powered by <a href="http://geonode.org">{% trans "GeoNode" %}</a> <!--<em>{% trans "version" %} {{ VERSION }}</em>--></li>
+            <li>Customized by <a href="http://okfn.gr/">Open Knowledge Greece</a><li>
+            <!--<li><a href="{% url "developer" %}">{% trans "Developers" %}</a> | <a href="{% url "about" %}">{% trans "About" %}</a><li>-->
+          </ul>
+          <label class="hidden">{% trans "Language" %}</label>
+          {% if csrf_token != "NOTPROVIDED" %}
+          {% get_current_language as LANGUAGE %}
+          <form class="form-inline" action="/i18n/setlang/" method="post">
+          {% csrf_token %}
+            <select class="col-md-6 pull-right" name="language" onchange="javascript:form.submit()">
+              {% for lang in LANGUAGES %}
+              <option value="{{ lang.0 }}" {% ifequal LANGUAGE_CODE lang.0 %} selected="selected"{% endifequal %}>
+                {{ lang.1 }}
+              </option>
+              {% endfor %}
+            </select>
+          </form>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </footer>
+{% endblock footer %}
