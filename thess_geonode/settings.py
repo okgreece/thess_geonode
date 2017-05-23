@@ -33,7 +33,7 @@ LOCAL_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 WSGI_APPLICATION = "thess_geonode.wsgi.application"
 
-
+LANGUAGES
 # Load more settings from a file called local_settings.py if it exists
 try:
     from local_settings import *
@@ -56,3 +56,4 @@ LOCALE_PATHS = (
 INSTALLED_APPS = INSTALLED_APPS + ('thess_geonode',)
 
 TEMPLATES[0]['DIRS'].insert(0, os.path.join(LOCAL_ROOT, "templates"))
+
