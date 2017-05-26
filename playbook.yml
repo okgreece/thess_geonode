@@ -1,0 +1,20 @@
+hosts: okfngr
+  remote_user: geonode
+  gather_facts: no
+  pre_tasks:
+    - name: 'install python2'
+      raw: apt -y update && apt install -y python-minimal
+      sudo: yes
+    - setup:
+  vars:
+    app_name: thess_geonode
+    github_user: echondrok 
+    server_name: thessgeonode.okfn.gr
+    repo_name: thess_geonode
+    deploy_user: geonode
+  roles:
+     - { role: GeoNode.geonode }
+
+
+
+

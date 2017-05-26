@@ -40,3 +40,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+nav.filter h4 {
+    text-transform: none;
+}
