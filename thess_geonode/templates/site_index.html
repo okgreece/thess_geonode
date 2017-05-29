@@ -28,9 +28,9 @@ This is where you can override the hero area block. You can simply modify the co
   			<form id="search" action="{% url "search" %}" >
   				<span class="fa fa-search fa-2x"></span>
   				{% if HAYSTACK_SEARCH %}
-  				<input id="search_input" type="text" placeholder="Search" class="form-control" name="q">
+  				{% blocktrans %}<input id="search_input" type="text" placeholder="Search" class="form-control" name="q">{% endblocktrans %}
   				{% else %}
-  				<input id="search_input" type="text" placeholder="Search" class="form-control" name="title__icontains">
+  				{% blocktrans %}<input id="search_input" type="text" placeholder="Search" class="form-control" name="title__icontains">{% endblocktrans %}
   				{% endif %}
   			</form>
   		</div>
