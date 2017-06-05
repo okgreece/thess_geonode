@@ -1,2 +1,4 @@
 MyProject.komodoproject
 *.pyc 
+thess_geonode.egg-info/
+.idea/

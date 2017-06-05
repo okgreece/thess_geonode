@@ -1,4 +1,5 @@
-hosts: okfngr
+---
+- hosts: localhost
   remote_user: geonode
   gather_facts: no
   pre_tasks:
@@ -8,13 +9,8 @@ hosts: okfngr
     - setup:
   vars:
     app_name: thess_geonode
-    github_user: echondrok 
+    github_user: okgreece 
     server_name: thessgeonode.okfn.gr
     repo_name: thess_geonode
-    deploy_user: geonode
   roles:
      - { role: GeoNode.geonode }
-
-
-
-
