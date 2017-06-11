@@ -306,12 +306,10 @@ _DEFAULT_INSTALLED_APPS = (
     'geonode-client',
     'leaflet',
     'django_extensions',
-    # 'geonode-client',
     # 'overextends',
     # 'haystack',
     'autocomplete_light',
     'mptt',
-    # 'modeltranslation',
     # 'djkombu',
     'djcelery',
     # 'kombu.transport.django',
@@ -942,7 +940,7 @@ CACHES = {
     #     }
 }
 
-LAYER_PREVIEW_LIBRARY = 'geoext'  # 'leaflet' and 'react' is the other choices. 'react' is being use for nepal and 2c geonode
+LAYER_PREVIEW_LIBRARY = 'react'  # 'leaflet' and 'react' is the other choices. 'react' is being use for nepal and 2c geonode
 
 SERVICE_UPDATE_INTERVAL = 0
 

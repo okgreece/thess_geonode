@@ -2,3 +2,5 @@ MyProject.komodoproject
 *.pyc 
 thess_geonode.egg-info/
 .idea/
+thess_geonode/local_settings.py
+thess_geonode/locale/
