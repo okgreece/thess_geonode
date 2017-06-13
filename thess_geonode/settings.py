@@ -1073,7 +1073,7 @@ if 'geonode.geoserver' in INSTALLED_APPS:
     # TODO: Allow overriding with an env var
     DB_DATASTORE = str2bool(os.getenv('DB_DATASTORE', 'True'))
 
-    ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', ['localhost','thessgeonode.okfn.gr', 'django'])
+    ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', ['localhost', ])
 
 AUTH_IP_WHITELIST = []
 
