@@ -554,7 +554,7 @@ OGP_URL = os.getenv('OGP_URL',"http://geodata.tufts.edu/solr/select")
 
 # Topic Categories list should not be modified (they are ISO). In case you
 # absolutely need it set to True this variable
-MODIFY_TOPICCATEGORY = str2bool(os.getenv('MODIFY_TOPICCATEGORY', 'False'))
+MODIFY_TOPICCATEGORY = str2bool(os.getenv('MODIFY_TOPICCATEGORY', 'TRUE'))
 
 MISSING_THUMBNAIL = os.getenv('MISSING_THUMBNAIL','geonode/img/missing_thumb.png')
 
