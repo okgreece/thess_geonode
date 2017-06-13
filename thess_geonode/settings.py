@@ -221,7 +221,7 @@ LOGOUT_URL = os.getenv('LOGOUT_URL','/account/logout/')
 _DEFAULT_ALLOWED_DOCUMENT_TYPES = [
     'doc', 'docx', 'gif', 'jpg', 'jpeg', 'ods', 'odt', 'odp', 'pdf', 'png',
     'ppt', 'pptx', 'rar', 'sld', 'tif', 'tiff', 'txt', 'xls', 'xlsx', 'xml',
-    'zip', 'gz', 'qml'
+    'zip', 'gz', 'qml', 'csv'
 ]
 ALLOWED_DOCUMENT_TYPES = os.getenv('ALLOWED_DOCUMENT_TYPES',_DEFAULT_ALLOWED_DOCUMENT_TYPES)
 MAX_DOCUMENT_SIZE = int(os.getenv('MAX_DOCUMENT_SIZE ','2'))  # MB
@@ -1073,7 +1073,7 @@ if 'geonode.geoserver' in INSTALLED_APPS:
     # TODO: Allow overriding with an env var
     DB_DATASTORE = str2bool(os.getenv('DB_DATASTORE', 'True'))
 
-    ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', ['localhost','thessgeonode.okfn.gr', 'django'])
+    ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', ['localhost', ])
 
 AUTH_IP_WHITELIST = []
 
