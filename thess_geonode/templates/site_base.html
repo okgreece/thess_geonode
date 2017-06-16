@@ -13,12 +13,16 @@
       
 {% endblock %}
 {% block extra_tab %}
-{% comment %}
-Add Tab for Third Party Apps
 <li>
- <a href="{{ PROJECT_ROOT }}app">App</a>
+ <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{% trans "Categories" %}<i class="fa fa-angle-down fa-lg"></i></a>
+  <ul class="dropdown-menu">
+    <li><a href="/search/?limit=100&offset=0&keywords__slug__in=exposure">{% trans "Exposure" %}</a></li>
+    <li><a href="/search/?limit=100&offset=0&keywords__slug__in=hazard">{% trans "Hazard" %}</a></li>
+    <li><a href="/search/?limit=100&offset=0&keywords__slug__in=resilience">{% trans "Resilience" %}</a></li>
+    <li><a href="/search/?limit=100&offset=0&keywords__slug__in=risk-assesment">{% trans "Risk Assesment" %}</a></li>
+    <li><a href="/search/?limit=100&offset=0&keywords__slug__in=vulnerability">{% trans "Vulnerability" %}</a></li>
+  </ul>
 </li>
-{% endcomment %}
 {% endblock %}
   
 {% block footer %}
@@ -47,6 +51,16 @@ Add Tab for Third Party Apps
             {% endif %}
           </ul>
         </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>{% trans "Categories" %}</li>
+            <li><a href="/search/?limit=100&offset=0&keywords__slug__in=exposure">{% trans "Exposure" %}</a></li>
+            <li><a href="/search/?limit=100&offset=0&keywords__slug__in=hazard">{% trans "Hazard" %}</a></li>
+            <li><a href="/search/?limit=100&offset=0&keywords__slug__in=resilience">{% trans "Resilience" %}</a></li>
+            <li><a href="/search/?limit=100&offset=0&keywords__slug__in=risk-assesment">{% trans "Risk Assesment" %}</a></li>
+            <li><a href="/search/?limit=100&offset=0&keywords__slug__in=vulnerability">{% trans "Vulnerability" %}</a></li>
+          </ul>
+        </div>
 		<div class="col-md-2">
           <ul class="list-unstyled">
             <li>{% trans "About" %}</li>
@@ -62,7 +76,7 @@ Add Tab for Third Party Apps
             {% endif %}
           </ul>
         </div>
-        <div class="col-md-6 text-right">
+        <div class="col-md-4 text-right">
           <ul class="list-unstyled">
             <li>Powered by <a href="http://geonode.org">GeoNode</a> {{ VERSION }} <!--<em>{% trans "version" %} {{ VERSION }}</em>--></li>
             <li>Developed by <a href="http://okfn.gr/">Open Knowledge Greece</a><li>

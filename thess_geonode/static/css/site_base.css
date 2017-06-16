@@ -44,3 +44,7 @@ body{
 nav.filter h4 {
     text-transform: none;
 }
+
+.navbar-nav .search input:focus {
+    width: 200px;
+}
