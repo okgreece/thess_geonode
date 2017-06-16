@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:28-0500\n"
-"PO-Revision-Date: 2017-05-26 00:22-0700\n"
+"PO-Revision-Date: 2017-06-16 08:50+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -58,7 +58,8 @@ msgstr "Λείπει το αρχείο %s, το οποίο είναι απαρα
 msgid "ESRI Shapefile"
 msgstr "ESRI Shapefile"
 
-#: geonode/static/geonode/js/upload/FileTypes.js:13 geonode/static/geonode/js/upload/FileTypes.js:18
+#: geonode/static/geonode/js/upload/FileTypes.js:13
+#: geonode/static/geonode/js/upload/FileTypes.js:18
 msgid "GeoTIFF"
 msgstr "GeoTIFF"
 
@@ -82,7 +83,8 @@ msgstr "Αρχείο Zip"
 msgid "ERDAS Imagine"
 msgstr "ERDAS Imagine"
 
-#: geonode/static/geonode/js/upload/FileTypes.js:50 geonode/static/geonode/js/upload/FileTypes.js:55
+#: geonode/static/geonode/js/upload/FileTypes.js:50
+#: geonode/static/geonode/js/upload/FileTypes.js:55
 msgid "National Imagery Transmission Format"
 msgstr "NITF Στρατιωτικός μορφότυπος"
 
@@ -158,7 +160,8 @@ msgstr "Το επίπεδο μεταφορτώθηκε με επιτυχία"
 msgid "Performing Final GeoServer Config Step"
 msgstr "Εκτέλεση τελικών βημάτων ρύθμισης GeoServer"
 
-#: geonode/static/geonode/js/upload/LayerInfo.js:386 geonode/static/geonode/js/upload/LayerInfo.js:412
+#: geonode/static/geonode/js/upload/LayerInfo.js:386
+#: geonode/static/geonode/js/upload/LayerInfo.js:412
 msgid "You need to specify more information in order to complete your upload"
 msgstr "Θα πρέπει να καθορίσετε περισσότερες πληροφορίες προκειμένου να ολοκληρωθεί η μεταφόρτωση"
 
@@ -170,7 +173,8 @@ msgstr "Θα πρέπει να καθορίσετε περισσότερες π�
 msgid "You can continue configuring your layer."
 msgstr "Μπορείτε να συνεχίσετε τη ρύθμιση παραμέτρων του επιπέδου."
 
-#: geonode/static/geonode/js/upload/LayerInfo.js:422 geonode/static/geonode/js/upload/LayerInfo.js:509
+#: geonode/static/geonode/js/upload/LayerInfo.js:422
+#: geonode/static/geonode/js/upload/LayerInfo.js:509
 msgid "Unexpected Error"
 msgstr "Απροσδόκητο Σφάλμα"
 
@@ -229,7 +233,8 @@ msgstr "Αποθήκευση ως Αντίγραφο"
 msgid "About this Map"
 msgstr "Σχετικά με αυτό το Χάρτη"
 
-#: geonode/templates/lang.js:12 geonode/templates/lang.js:96 geonode/templates/lang.js:165
+#: geonode/templates/lang.js:12 geonode/templates/lang.js:96
+#: geonode/templates/lang.js:165
 msgid "Abstract"
 msgstr "Περίληψη"
 
@@ -237,7 +242,9 @@ msgstr "Περίληψη"
 msgid "Save"
 msgstr "Αποθήκευση"
 
-#: geonode/templates/lang.js:14 geonode/templates/lang.js:100 geonode/templates/lang.js:109 geonode/templates/lang.js:162 geonode/templates/lang.js:184 geonode/templates/lang.js:219
+#: geonode/templates/lang.js:14 geonode/templates/lang.js:100
+#: geonode/templates/lang.js:109 geonode/templates/lang.js:162
+#: geonode/templates/lang.js:184 geonode/templates/lang.js:219
 msgid "Title"
 msgstr "Τίτλος"
 
@@ -325,7 +332,8 @@ msgstr "Μέγεθος Χάρτη"
 msgid "Measure"
 msgstr "Μέτρο"
 
-#: geonode/templates/lang.js:48 geonode/templates/lang.js:97 geonode/templates/lang.js:163
+#: geonode/templates/lang.js:48 geonode/templates/lang.js:97
+#: geonode/templates/lang.js:163
 msgid "Contact"
 msgstr "Επικοινωνία"
 

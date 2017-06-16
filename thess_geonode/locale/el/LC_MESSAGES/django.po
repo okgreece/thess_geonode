@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-06-16 08:15+0300\n"
+"PO-Revision-Date: 2017-06-16 08:51+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -146,7 +146,7 @@ msgstr "διεπαφές υπηρεσιών"
 
 #: geonode/base/enumerations.py:38
 msgid "attribute class"
-msgstr "κατηγορία χαρακτηριστικού"
+msgstr "κατηγορία ιδιότητας"
 
 #: geonode/base/enumerations.py:39
 msgid "characteristic of a feature"
@@ -1312,35 +1312,35 @@ msgstr "Το αρχείο δεν μπορεί να ανοιχθεί, ίσως α
 
 #: geonode/layers/models.py:321
 msgid "attribute name"
-msgstr "όνομα χαρακτηριστικού"
+msgstr "όνομα ιδιότητας"
 
 #: geonode/layers/models.py:322
 msgid "name of attribute as stored in shapefile/spatial database"
-msgstr "όνομα του χαρακτηριστικού όπως είναι αποθηκευμένο σε shapefile/χωρική βάση δεδομένων"
+msgstr "όνομα της ιδιότητας όπως είναι αποθηκευμένη σε shapefile/χωρική βάση δεδομένων"
 
 #: geonode/layers/models.py:328
 msgid "attribute description"
-msgstr "περιγραφή του χαρακτηριστικού"
+msgstr "περιγραφή της ιδιότητας"
 
 #: geonode/layers/models.py:329
 msgid "description of attribute to be used in metadata"
-msgstr "περιγραφή του χαρακτηριστικού που πρέπει να χρησιμοποιηθεί στα μεταδεδομένα"
+msgstr "περιγραφή της ιδιότητας που πρέπει να χρησιμοποιηθεί στα μεταδεδομένα"
 
 #: geonode/layers/models.py:334
 msgid "attribute label"
-msgstr "ετικέτα χαρακτηριστικού"
+msgstr "ετικέτα ιδιότητας"
 
 #: geonode/layers/models.py:335
 msgid "title of attribute as displayed in GeoNode"
-msgstr "τίτλος του χαρακτηριστικού, όπως εμφανίζεται στο GeoNode"
+msgstr "τίτλος της ιδιότητας, όπως εμφανίζεται στο GeoNode"
 
 #: geonode/layers/models.py:341
 msgid "attribute type"
-msgstr "τύπος χαρακτηριστικού"
+msgstr "τύπος ιδιότητας"
 
 #: geonode/layers/models.py:342
 msgid "the data type of the attribute (integer, string, geometry, etc)"
-msgstr "ο τύπος δεδομένων του χαρακτηριστικού (ακέραιος, αλφαριθμητικό, γεωμετρία, κλπ)"
+msgstr "ο τύπος δεδομένων της ιδιότητας (ακέραιος, αλφαριθμητικό, γεωμετρία, κλπ)"
 
 #: geonode/layers/models.py:349
 msgid "visible?"
@@ -1348,7 +1348,7 @@ msgstr "ορατό;"
 
 #: geonode/layers/models.py:350
 msgid "specifies if the attribute should be displayed in identify results"
-msgstr "καθορίζει εάν το χαρακτηριστικό θα πρέπει να εμφανίζεται στα αποτελέσματα αναγνώρισης"
+msgstr "καθορίζει εάν η ιδιότητα θα πρέπει να εμφανίζεται στα αποτελέσματα αναγνώρισης"
 
 #: geonode/layers/models.py:353
 msgid "display order"
@@ -1356,7 +1356,7 @@ msgstr "σειρά εμφάνισης"
 
 #: geonode/layers/models.py:354
 msgid "specifies the order in which attribute should be displayed in identify results"
-msgstr "καθορίζει τη σειρά με την οποία το χαρακτηριστικό θα πρέπει να εμφανίζεται στα αποτελέσματα αναγνώρισης"
+msgstr "καθορίζει τη σειρά με την οποία η ιδιότητα θα πρέπει να εμφανίζεται στα αποτελέσματα αναγνώρισης"
 
 #: geonode/layers/models.py:359
 msgid "count"
@@ -1424,7 +1424,7 @@ msgstr "τροποποιήθηκε τελευταία"
 
 #: geonode/layers/models.py:418
 msgid "date when attribute statistics were last updated"
-msgstr "ημερομηνία κατά την οποία τα στατιστικά στοιχεία του χαρακτηριστικού ενημερώθηκαν τελευταία "
+msgstr "ημερομηνία κατά την οποία τα στατιστικά στοιχεία της ιδιότητας ενημερώθηκαν τελευταία "
 
 #: geonode/layers/templates/layers/layer_change_poc.html:5
 msgid "Home"
@@ -1484,11 +1484,11 @@ msgstr "Regex"
 
 #: geonode/layers/templates/layers/layer_detail.html:144
 msgid "TIME"
-msgstr "TIME"
+msgstr "ΩΡΑ"
 
 #: geonode/layers/templates/layers/layer_detail.html:149
 msgid "ELEVATION"
-msgstr "ELEVATION"
+msgstr "ΑΝΥΨΩΣΗ"
 
 #: geonode/layers/templates/layers/layer_detail.html:160
 msgid "Attribute Name"
@@ -1664,11 +1664,11 @@ msgstr ""
 
 #: geonode/layers/templates/layers/layer_metadata.html:48 geonode/layers/templates/layers/layer_metadata.html:90 geonode/templates/_actions.html:5
 msgid "Attributes"
-msgstr "Χαρακτηριστικά"
+msgstr "Ιδιότητες"
 
 #: geonode/layers/templates/layers/layer_metadata.html:94
 msgid "Attribute"
-msgstr "Χαρακτηριστικό"
+msgstr "Ιδιότητα"
 
 #: geonode/layers/templates/layers/layer_metadata.html:97
 msgid "Display Order"
@@ -1827,7 +1827,7 @@ msgstr "Γεωχωρικά Δεδομένα"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:12
 msgid "Please indicate which attributes contain the latitude and longitude coordinates in the CSV data."
-msgstr "Παρακαλώ υποδείξετε ποιες στήλες χαρακτηριστικών περιέχουν τις συντεταγμένες γεωγραφικού μήκους και γεωγραφικού πλάτους στα δεδομένα CSV."
+msgstr "Παρακαλώ υποδείξετε ποιες στήλες ιδιοτήτων περιέχουν τις συντεταγμένες γεωγραφικού μήκους και γεωγραφικού πλάτους στα δεδομένα CSV."
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:14
 msgid ""
@@ -1838,7 +1838,7 @@ msgstr "Με αυτά τα δεδομένα, το GeoNode ήταν σε θέση
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:26 geonode/layers/templates/upload/layer_upload_csv.html:39
 msgid "Select an attribute"
-msgstr "Επιλέξτε ένα χαρακτηριστικό"
+msgstr "Επιλέξτε μια ιδιότητα"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:57
 msgid ""
@@ -1873,23 +1873,23 @@ msgstr "Επιλογές Ώρας"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:22
 msgid "Choose time attribute"
-msgstr "Επιλέξτε  χαρακτηριστικό χρονοσήμανσης"
+msgstr "Επιλέξτε ιδιότητες χρονοσήμανσης"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:25
 msgid "This data does not have a time attribute"
-msgstr "Αυτά τα δεδομένα δεν έχουν χαρακτηριστικό χρονοσήμανσης "
+msgstr "Αυτά τα δεδομένα δεν έχουν ιδιότητα χρονοσήμανσης "
 
 #: geonode/layers/templates/upload/layer_upload_time.html:30 geonode/layers/templates/upload/layer_upload_time.html:57
 msgid "Existing Time Attribute"
-msgstr "Υπάρχον χαρακτηριστικό ώρας/χρονοσήμανσης"
+msgstr "Υπάρχον ιδιότητα ώρας/χρονοσήμανσης"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:36 geonode/layers/templates/upload/layer_upload_time.html:63
 msgid "Convert Text Attribute"
-msgstr "Μετατροπή Χαρακτηριστικού Κείμενου"
+msgstr "Μετατροπή Ιδιότητας Κείμενου"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:38 geonode/layers/templates/upload/layer_upload_time.html:65
 msgid "Date Format"
-msgstr "Μορφή ημερομηνίας"
+msgstr "Μορφή Ημερομηνίας"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:49 geonode/layers/templates/upload/layer_upload_time.html:76
 msgid "Convert Number (As Year)"
@@ -1897,11 +1897,11 @@ msgstr "Μετατρέψτε Αριθμό (ως έτος)"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:53
 msgid "Choose optional end time attribute"
-msgstr "Επιλέξτε προαιρετικό χαρακτηριστικό χρόνου περάτωσης"
+msgstr "Επιλέξτε προαιρετική ιδιότητα χρόνου περάτωσης"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:81
 msgid "Present time attribute as"
-msgstr "Χαρακτηριστικό παρόντα στιγμιαίου χρόνου ως"
+msgstr "Ιδιότητα παρόντα στιγμιαίου χρόνου ως"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:84
 msgid "List"
@@ -1929,7 +1929,7 @@ msgstr "για δεδομένα που ενημερώνονται συχνά, η
 
 #: geonode/layers/templates/upload/layer_upload_time.html:96
 msgid "Resolution of time attribute"
-msgstr "Χαρακτηριστικό χρονικής ανάλυσης"
+msgstr "Ιδιότητα χρονικής ανάλυσης"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:108
 msgid "Need Help?"
@@ -1945,15 +1945,15 @@ msgid ""
 "    attribute is used, the feature is considered relevant at that single point in time. If two\n"
 "    attributes are used, the second attribute represents the end of a valid period for the\n"
 "    feature."
-msgstr "Ένα χαρακτηριστικό μπορεί να υποστηρίξει μία ή δύο στιγμές/τιμές χρόνου. Εάν χρησιμοποιείται μία στιγμή/τιμή  χρόνου, το χαρακτηριστικό αυτό σχετίζεται με την μοναδική αυτή στιγμή στο χρόνο. Αν δύο στιγμές/τιμές χρησιμοποιούνται, η δεύτερη τιμή/στιγμή αντιπροσωπεύει το τέλος μιας έγκυρης περιόδου για το χαρακτηριστικό."
+msgstr "Ένα χαρακτηριστικό μπορεί να υποστηρίξει μία ή δύο ιδιότητες χρόνου. Εάν χρησιμοποιείται μία ιδιότητα, το χαρακτηριστικό αυτό σχετίζεται με την μοναδική αυτή στιγμή στο χρόνο. Αν δύο ιδιότητες χρησιμοποιούνται, η δεύτερη ιδιότητα αντιπροσωπεύει το τέλος μιας έγκυρης περιόδου για το χαρακτηριστικό."
 
 #: geonode/layers/templates/upload/layer_upload_time.html:114
 msgid "Selecting an Attribute"
-msgstr "Επιλέγοντας ένα Χαρακτηριστικό"
+msgstr "Επιλέγοντας Ιδιότητα"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:115
 msgid "A time attribute can be one of"
-msgstr "Ένα χαρακτηριστικό του χρόνου μπορεί να είναι ένα από τα"
+msgstr "Μια ιδιότητα του χρόνου μπορεί να είναι μια από τις"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:117
 msgid "An existing date"
@@ -1975,7 +1975,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"    Για τα χαρακτηριστικά κειμένου, μπορεί κανείς να καθορίσει μια προσαρμοσμένη μορφή ή να χρησιμοποιήσει τη μέθοδο «καλύτερης εκτίμησης».\n"
+"    Για τις ιδιότητες κειμένου, μπορεί κανείς να καθορίσει μια προσαρμοσμένη μορφή ή να χρησιμοποιήσει τη μέθοδο «καλύτερης εκτίμησης».\n"
 "    Οι πιο κοινές σημαίες/flags μορφοποίησης είναι:\n"
 "    "
 
