@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-06-16 08:51+0300\n"
+"PO-Revision-Date: 2017-06-16 14:11+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -773,7 +773,7 @@ msgstr "Μέση Βαθμολογία"
 
 #: geonode/documents/templates/documents/document_detail.html:89 geonode/layers/templates/layers/layer_detail.html:282 geonode/maps/templates/maps/map_detail.html:84
 msgid "Metadata Detail"
-msgstr "Λεπτομέρεια Μεταδεδομένων"
+msgstr "Λεπτομέρειες Μεταδεδομένων"
 
 #: geonode/documents/templates/documents/document_detail.html:97 geonode/documents/templates/documents/document_detail.html:99 geonode/documents/templates/documents/document_detail.html:101
 msgid "Download Document"
@@ -4443,7 +4443,7 @@ msgid "<h1>Thessaloniki <br/>Risk Data Portal</h1>"
 msgstr "<h1>Πύλη Δεδομένων Επικινδυνότητας <br/>Δήμου Θεσσαλονίκης</h1>"
 
 msgid "Exposure"
-msgstr "Έκθεση"
+msgstr "Έκθεση σε Κίνδυνο"
 
 msgid "Hazard"
 msgstr "Επικινδυνότητα"
@@ -4456,3 +4456,6 @@ msgstr "Εκτίμηση Διακινδύνευσης"
 
 msgid "Vulnerability"
 msgstr "Τρωτότητα"
+
+msgid "Other Data"
+msgstr "Άλλα Δεδομένα"
