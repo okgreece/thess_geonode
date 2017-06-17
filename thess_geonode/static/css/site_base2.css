@@ -48,3 +48,8 @@ nav.filter h4 {
 .navbar-nav .search input:focus {
     width: 200px;
 }
+
+.navbar-nav .search input {
+    width: 140px;
+
+}
