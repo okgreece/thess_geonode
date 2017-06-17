@@ -12,5 +12,6 @@
     github_user: okgreece 
     server_name: thessgeonode.okfn.gr
     repo_name: thess_geonode
+    deploy_user: geonode
   roles:
      - { role: GeoNode.geonode }
