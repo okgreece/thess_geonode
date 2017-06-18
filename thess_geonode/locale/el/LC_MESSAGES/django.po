@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-06-17 17:21+0300\n"
+"PO-Revision-Date: 2017-06-18 15:09+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -1060,11 +1060,11 @@ msgstr "Δημόσια (με πρόσκληση-μόνο)"
 
 #: geonode/groups/models.py:42
 msgid "Private"
-msgstr "Ιδιωτικά"
+msgstr "Ιδιωτική"
 
 #: geonode/groups/models.py:45
 msgid "Public: Any registered user can view and join a public group.<br>Public (invite-only):Any registered user can view the group.  Only invited users can join.<br>Private: Registered users cannot see any details about the group, including membership.  Only invited users can join."
-msgstr "Δημόσια: Κάθε εγγεγραμμένος χρήστης μπορεί να δει και να συμμετάσχει σε μια δημόσια ομάδα. <br> Δημόσια (με πρόσκληση-μόνο): Οποιοσδήποτε εγγεγραμμένος χρήστης μπορεί να δει την ομάδα. Μόνο  χρήστες με πρόσκληση μπορούν να συμμετάσχουν <br> Ιδιωτικά: Οι εγγεγραμμένοι χρήστες δεν μπορούν να δουν  λεπτομέρειες σχετικά με την ομάδα, ούτε να γίνουν μέλη της. Μόνο χρήστες με πρόσκληση μπορούν να συμμετάσχουν."
+msgstr "Δημόσια: Κάθε εγγεγραμμένος χρήστης μπορεί να δει και να συμμετάσχει σε μια δημόσια ομάδα. <br> Δημόσια (με πρόσκληση-μόνο): Οποιοσδήποτε εγγεγραμμένος χρήστης μπορεί να δει την ομάδα. Μόνο  χρήστες με πρόσκληση μπορούν να συμμετάσχουν <br> Ιδιωτική: Οι εγγεγραμμένοι χρήστες δεν μπορούν να δουν λεπτομέρειες σχετικά με την ομάδα, ούτε να γίνουν μέλη της. Μόνο χρήστες με πρόσκληση μπορούν να συμμετάσχουν."
 
 #: geonode/groups/models.py:50
 msgid "Email used to contact one or all group members, such as a mailing list, shared email, or exchange group."
