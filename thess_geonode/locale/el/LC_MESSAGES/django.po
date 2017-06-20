@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-06-18 15:23+0300\n"
+"PO-Revision-Date: 2017-06-20 19:58+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -4440,7 +4440,7 @@ msgid "<input id=\"search_input\" type=\"text\" placeholder=\"Search\" class=\"f
 msgstr "<input id=\"search_input\" type=\"text\" placeholder=\"Αναζήτηση\" class=\"form-control\" name=\"title__icontains\">"
 
 msgid "<h1>Thessaloniki <br/>Risk Data Portal</h1>"
-msgstr "<h1>Πύλη Δεδομένων Επικινδυνότητας <br/>Δήμου Θεσσαλονίκης</h1>"
+msgstr "<h1>Πύλη Δεδομένων Διακινδύνευσης <br/>Δήμου Θεσσαλονίκης</h1>"
 
 msgid "Exposure"
 msgstr "Έκθεση σε Κίνδυνο"
@@ -4459,3 +4459,12 @@ msgstr "Τρωτότητα"
 
 msgid "General"
 msgstr "Γενικά"
+
+msgid "Risk Componets"
+msgstr "Στοιχεία Διακινδύνευσης"
+
+msgid "For more information please contact the site Administrators."
+msgstr "Για περισσότερες πληροφορίες παρακαλώ επικοινωνήστε με τους Διαχειριστές."
+
+msgid "You can also give your feedback and report any issues on Github."
+msgstr "Μπορείτε επίσης να μας πείτε τη γνώμη σας και να αναφέρετε τυχόν προβλήματα στο Github."
