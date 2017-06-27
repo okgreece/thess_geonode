@@ -35,6 +35,7 @@ from django.conf.urls.static import static
 from geonode.sitemap import LayerSitemap, MapSitemap
 from django.views.generic import TemplateView
 from django.contrib import admin
+from django.http import HttpResponse
 
 import geonode.proxy.urls
 
@@ -175,7 +176,3 @@ urlpatterns += patterns('',
                         (r'^featured/(?P<site>[A-Za-z0-9_\-]+)/$', 'geonode.maps.views.featured_map'),
                         (r'^featured/(?P<site>[A-Za-z0-9_\-]+)/info$', 'geonode.maps.views.featured_map_info'),
                         )
-# Use cases
-urlpatterns += patterns('',
-                       url(r'usecase/1', TemplateView.as_view(template_name='test1.html'))
-                       )

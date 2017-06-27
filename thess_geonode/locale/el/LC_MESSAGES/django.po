@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-06-20 19:58+0300\n"
+"PO-Revision-Date: 2017-06-20 22:57+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -4468,3 +4468,6 @@ msgstr "Για περισσότερες πληροφορίες παρακαλώ 
 
 msgid "You can also give your feedback and report any issues on Github."
 msgstr "Μπορείτε επίσης να μας πείτε τη γνώμη σας και να αναφέρετε τυχόν προβλήματα στο Github."
+
+msgid "<h3>An Open Risk Data Repository in order to strengthen the Resilience of <br/> Municipality of Thessaloniki</h3>"
+msgstr "<h3>Ένα αποθετήριο Ανοιχτών Δεδομένων Διακινδύνευσης με σκοπό την ενδυνάμωση της ανθεκτικότητας του Δήμου Θεσσαλονίκης</h3>"
