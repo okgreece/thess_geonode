@@ -185,4 +185,5 @@ urlpatterns += patterns('',
 urlpatterns += patterns('',
                         url(r'^blog/', include('zinnia.urls', namespace='zinnia')),
                         url(r'^comments/', include('django_comments.urls')),
+                        url(r'^ckeditor/', include('ckeditor_uploader.urls')),
 )

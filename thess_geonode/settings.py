@@ -193,6 +193,31 @@ STATIC_URL = os.getenv('STATIC_URL',"/static/")
 FILEBROWSER_DIRECTORY = ''
 DIRECTORY = ''
 
+# CKEDITOR
+CKEDITOR_UPLOAD_PATH = ''
+
+# # CKEDITOR toolbar config
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': [
+            ['Undo', 'Redo'],
+            ["Styles"],
+            ["Format", "Bold", "Italic"],
+            ['JustifyLeft',
+             'JustifyCenter',
+             'JustifyRight', 'JustifyBlock'],['NumberedList', 'BulletedList',
+             "Indent", "Outdent","Blockquote"],
+            ["Image", "Link", "Unlink",
+             "Subscript", "Superscript"], ["Source"],
+            ["Maximize"]],
+        # 'uiColor': '#AADC6E',
+        'entities_greek': False,
+        'height': 600,
+        'width': 900,
+    }
+}
+
+
 # Additional directories which hold static files
 _DEFAULT_STATICFILES_DIRS = [
     os.path.join(PROJECT_ROOT, "static"),
@@ -344,6 +369,9 @@ _DEFAULT_INSTALLED_APPS = (
     #'corsheaders',
     'tagging',
     'zinnia',
+    'ckeditor',
+    'ckeditor_uploader',
+    'zinnia_ckeditor',
 ) + GEONODE_APPS
 
 INSTALLED_APPS = os.getenv('INSTALLED_APPS',_DEFAULT_INSTALLED_APPS)
