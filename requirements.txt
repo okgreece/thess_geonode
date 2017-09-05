@@ -5,3 +5,4 @@ geonode==2.6.3
 django-blog-zinnia<0.17
 django-filebrowser-no-grappelli
 zinnia-wysiwyg-ckeditor
+zinnia-url-shortener-bitly
