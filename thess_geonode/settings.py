@@ -294,6 +294,7 @@ _DEFAULT_INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.humanize',
     'django.contrib.gis',
+    'django_comments',
 
     # Third party apps
 
@@ -335,6 +336,8 @@ _DEFAULT_INSTALLED_APPS = (
     'guardian',
     'oauth2_provider',
     #'corsheaders',
+    'tagging',
+    'zinnia',
 ) + GEONODE_APPS
 
 INSTALLED_APPS = os.getenv('INSTALLED_APPS',_DEFAULT_INSTALLED_APPS)

@@ -176,3 +176,9 @@ urlpatterns += patterns('',
                         (r'^featured/(?P<site>[A-Za-z0-9_\-]+)/$', 'geonode.maps.views.featured_map'),
                         (r'^featured/(?P<site>[A-Za-z0-9_\-]+)/info$', 'geonode.maps.views.featured_map_info'),
                         )
+
+# Weblog Patterns
+urlpatterns += patterns('',
+                        url(r'^blog/', include('zinnia.urls', namespace='zinnia')),
+                        url(r'^comments/', include('django_comments.urls')),
+)
