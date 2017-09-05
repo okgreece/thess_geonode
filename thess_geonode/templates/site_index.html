@@ -22,7 +22,7 @@ This is where you can override the hero area block. You can simply modify the co
 {% block mainbody %}
   <div class="big-search">
   	<div class="container">
-  		<h1>{% trans "Search for Data." %}</h1>
+  		<h1>{% trans "Search for Data" %}</h1>
   		<div class="search">
   			<form id="search" action="{% url "search" %}" >
   				<span class="fa fa-search fa-2x"></span>
@@ -42,7 +42,7 @@ This is where you can override the hero area block. You can simply modify the co
 		<div class="container">
 			<div class="row">
 				<div class="container text-center">
-					<h1>{% trans "Discover the available datasets." %}</h1>
+					<h1>{% trans "Discover the available datasets" %}</h1>
 					<div class="col-xs-4 col-sm-2">
 						{% blocktrans %}<a href="/search/?limit=100&offset=0&category__identifier__in=boundaries&category__identifier__in=planningCadastre" data-toggle="tooltip" data-placement="auto" title="Political and administrative boundaries. Land use maps, zoning maps, cadastral surveys, land ownership.">{% endblocktrans %}
 							<div class="category">
