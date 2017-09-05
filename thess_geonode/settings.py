@@ -194,9 +194,9 @@ FILEBROWSER_DIRECTORY = ''
 DIRECTORY = ''
 
 # CKEDITOR
-CKEDITOR_UPLOAD_PATH = ''
+CKEDITOR_UPLOAD_PATH = "uploads/zinnia/"
 
-# # CKEDITOR toolbar config
+# CKEDITOR toolbar config
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': [
@@ -214,6 +214,7 @@ CKEDITOR_CONFIGS = {
         'entities_greek': False,
         'height': 600,
         'width': 900,
+
     }
 }
 
