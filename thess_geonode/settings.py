@@ -189,6 +189,10 @@ STATIC_ROOT = os.getenv('STATIC_ROOT',os.path.join(PROJECT_ROOT, "static_root"))
 # Example: "http://media.lawrence.com"
 STATIC_URL = os.getenv('STATIC_URL',"/static/")
 
+# FileBrowser
+FILEBROWSER_DIRECTORY = ''
+DIRECTORY = ''
+
 # Additional directories which hold static files
 _DEFAULT_STATICFILES_DIRS = [
     os.path.join(PROJECT_ROOT, "static"),
@@ -282,6 +286,8 @@ _DEFAULT_INSTALLED_APPS = (
     # Boostrap admin theme
     # 'django_admin_bootstrapped.bootstrap3',
     # 'django_admin_bootstrapped',
+
+    'filebrowser',
 
     # Apps bundled with Django
     'django.contrib.auth',

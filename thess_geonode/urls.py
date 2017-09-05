@@ -44,6 +44,8 @@ from geonode.api.views import verify_token, roles, users, admin_role
 
 import autocomplete_light
 
+from filebrowser.sites import site
+
 # Setup Django Admin
 autocomplete_light.autodiscover()
 
@@ -111,6 +113,8 @@ urlpatterns = patterns('',
                        url(r'^jsi18n/$', 'django.views.i18n.javascript_catalog', js_info_dict, name='jscat'),
                        url(r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap', {'sitemaps': sitemaps},
                            name='sitemap'),
+
+                       (r'^admin/filebrowser/', include(site.urls)),
 
                        (r'^i18n/', include('django.conf.urls.i18n')),
                        (r'^autocomplete/', include('autocomplete_light.urls')),
