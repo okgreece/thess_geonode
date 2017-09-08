@@ -441,11 +441,8 @@ TEMPLATES = [
             os.path.join(PROJECT_ROOT, "templates"),
             os.path.join(GEONODE_ROOT, "templates")
         ],
-        'APP_DIRS': True,
+        # 'APP_DIRS': True,
         'OPTIONS': {
-            'loaders': [
-                'app_namespace.Loader',
-            ],
             'context_processors': [
                 'django.contrib.auth.context_processors.auth',
                 'django.core.context_processors.debug',
@@ -458,6 +455,11 @@ TEMPLATES = [
                 'account.context_processors.account',
                 'geonode.context_processors.resource_urls',
                 'geonode.geoserver.context_processors.geoserver_urls',
+            ],
+            'loaders': [
+                'app_namespace.Loader',
+                'django.template.loaders.filesystem.Loader',
+                'django.template.loaders.app_directories.Loader',
             ],
             'debug': DEBUG,
         },
