@@ -6,3 +6,6 @@ django-blog-zinnia<0.17
 django-filebrowser-no-grappelli
 zinnia-wysiwyg-ckeditor
 zinnia-url-shortener-bitly
+django-app-namespace-template-loader
+zinnia-theme-bootstrap
+
