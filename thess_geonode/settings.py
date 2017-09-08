@@ -369,6 +369,7 @@ _DEFAULT_INSTALLED_APPS = (
     'oauth2_provider',
     #'corsheaders',
     'tagging',
+    'zinnia_bootstrap',
     'zinnia',
     'ckeditor',
     'ckeditor_uploader',
@@ -442,6 +443,9 @@ TEMPLATES = [
         ],
         'APP_DIRS': True,
         'OPTIONS': {
+            'loaders': [
+                'app_namespace.Loader',
+            ],
             'context_processors': [
                 'django.contrib.auth.context_processors.auth',
                 'django.core.context_processors.debug',
