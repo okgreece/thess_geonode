@@ -7854,3 +7854,7 @@ footer form {
     max-width: 100%;
 
 }
+
+.hfeed article {
+    border-bottom: 1px solid #0003;
+}
