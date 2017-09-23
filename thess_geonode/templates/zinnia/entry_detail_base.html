@@ -84,7 +84,7 @@
 	<a href="{{ comment.url }}" rel="external nofollow"
            class="fn url">{{ comment.name }}</a>
 	{% else %}
-	<span class="fn">{{ comment.name }}</span>
+    <span class="fn"><a href="{% url "profile_browse" %}profile/{{ comment.name }}">{{ comment.name }}</a></span>
 	{% endif %}
 	{% trans "on" context "on date" %}
         <abbr class="comment-published" title="{{ comment.submit_date|date:"c" }}">
