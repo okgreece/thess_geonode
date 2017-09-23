@@ -1,7 +1,9 @@
 {% load comments i18n %}
 {% load firstof from future %}
 
+
 <form action="{% comment_form_target %}" method="post" id="comment-form" class="well form-horizontal">
+
   <div>{% csrf_token %}</div>
   {% if form.non_field_errors %}
   <div class="alert alert-error">
@@ -10,6 +12,7 @@
   {% endif %}
   <fieldset>
     <legend>{% trans "Post your comment" %}</legend>
+    {% if user.is_authenticated %}
     <input type="hidden" name="next" value="{% url 'zinnia:comment_success' %}"/>
     {% for field in form %}
     {% if field.is_hidden %}{{ field }}{% else %}
@@ -40,4 +43,8 @@
       <input type="submit" name="preview" class="submit-preview btn btn-default submit-post" value="{% trans "Preview" %}" />
     </p>
   </fieldset>
+    {% else %}
+        {% blocktrans %}<a href="/account/login/">Log in</a> to comment.{% endblocktrans %}
+    {% endif %}
 </form>
+
