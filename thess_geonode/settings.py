@@ -207,14 +207,13 @@ CKEDITOR_CONFIGS = {
              'JustifyCenter',
              'JustifyRight', 'JustifyBlock'],['NumberedList', 'BulletedList',
              "Indent", "Outdent","Blockquote"],
-            ["Image", "Link", "Unlink",
+            ["Image", "Iframe", "Link", "Unlink",
              "Subscript", "Superscript"], ["Source"],
             ["Maximize"]],
-        # 'uiColor': '#AADC6E',
         'entities_greek': False,
         'height': 600,
         'width': 900,
-
+        'allowedContent': True,
     }
 }
 
