@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-09-23 11:55+0300\n"
+"PO-Revision-Date: 2017-09-26 09:44+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -4232,18 +4232,18 @@ msgstr "Σύνθετη Αναζήτηση"
 msgid "Discover the available datasets"
 msgstr "Ανακαλύψτε τα διαθέσιμα σύνολα δεδομένων"
 
-msgid "Boundaries"
-msgstr "Oρια"
+msgid "Basemap & Administrative"
+msgstr "Χαρτογραφικο & Διοικητικο Υποβαθρο"
 
-msgid "Buildings"
-msgstr "Κτιρια"
+msgid "Business"
+msgstr "Επιχειρησεις"
 
-msgid "Climate"
-msgstr "Κλιμα"
+msgid "Education"
+msgstr "Εκπαιδευση"
 
 #: geonode\templates\index.html:82
-msgid "<h4> Elevation </h4>"
-msgstr "<h4> Υψομετρο </h4>"
+msgid "Environment"
+msgstr "Περιβαλλον"
 
 msgid "Geology"
 msgstr "Γεωλογια"
@@ -4251,23 +4251,23 @@ msgstr "Γεωλογια"
 msgid "Health"
 msgstr "Υγεια"
 
-msgid "Land Cover"
-msgstr "Εδαφικη Καλυψη"
-
-msgid "Nature"
-msgstr "Φυση"
-
-msgid "Places"
-msgstr "Τοποθεσιες"
+msgid "Housing & Development"
+msgstr "Στεγαση & Αναπτυξη"
 
 msgid "Population"
 msgstr "Πληθυσμος"
 
-msgid "Transportation"
-msgstr "Μεταφορα"
+msgid "Public Safety"
+msgstr "Δημοσια Ασφαλεια"
 
-msgid "Water"
-msgstr "Νερο"
+msgid "Public Services"
+msgstr "Δημοσιες Yπηρεσιες"
+
+msgid "Recreation"
+msgstr "Αναψυχη"
+
+msgid "Transportation"
+msgstr "Μεταφορες"
 
 msgid "Featured Datasets"
 msgstr "Προτεινόμενα σύνολα δεδομένων"
@@ -4275,41 +4275,41 @@ msgstr "Προτεινόμενα σύνολα δεδομένων"
 msgid "Explore all datasets"
 msgstr "Εξερευνήστε όλα τα σύνολα δεδομένων"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=boundaries&category__identifier__in=planningCadastre\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Political and administrative boundaries. Land use maps, zoning maps, cadastral surveys, land ownership.\">"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=boundaries&category__identifier__in=planningCadastre\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Πολιτικά και διοικητικά όρια. Χάρτες χρήσης γης, χάρτες ζωνών, κτηματολογικές έρευνες, ιδιοκτησία γης.\">"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=basemapAndAdministrative\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Βase maps, land cover, topographic maps, land descriptions, political and administrative boundaries, land use maps, zoning maps, cadastral surveys, land ownership.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=basemapAndAdministrative\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Χαρτογραφικό υπόβαθρο, κάλυψη γης, τοπογραφικοί χάρτες, περιγραφές γης, πολιτικά και διοικητικά όρια, χάρτες χρήσεις γης, χάρτες ζωνών, κτηματολογικές έρευνες, ιδιοκτησία γης.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=structure&category__identifier__in=intelligenceMilitary&category__identifier__in=utilitiesCommunication\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Buildings, museums, churches, factories, housing, monuments, shops, towers. Energy, water and waste systems and communications infrastructure and services. Military bases, structures, activities.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=structure&category__identifier__in=intelligenceMilitary&category__identifier__in=utilitiesCommunication\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Κτίρια, μουσεία, εκκλησίες, εργοστάσια, κατοικίες, μνημεία, καταστήματα, πύργοι. Συστήματα ενέργειας, νερού και αποβλήτων και υποδομές και υπηρεσίες επικοινωνιών. Στρατιωτικές βάσεις, δομές, δραστηριότητες.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=business\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Economic activities, income and employment, commerce, industry, tourism.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=business\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Oικονομικές δραστηριότητες, εισόδημα και απασχόληση, εμπόριο, βιομηχανία, τουρισμός.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=climatologyMeteorologyAtmosphere\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Cloud cover, weather, climate, atmospheric conditions, climate change, precipitation.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=climatologyMeteorologyAtmosphere\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Νεφοκάλυψη, καιρός, κλίμα, ατμοσφαιρικές συνθήκες, κλιματική αλλαγή, βροχόπτωση.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=education\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Educational facilities and related information.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=education\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Εκπαιδευτικές εγκαταστάσεις και σχετικές πληροφορίες.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=elevation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Altitude, bathymetry, digital elevation models, slope, derived products.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=elevation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Υψόμετρο, βαθυμετρία, ψηφιακά μοντέλα ανύψωσης, κλίση, παράγωγα προϊόντα.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=environment\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Environmental resources, protection and conservation, environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=environment\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Περιβαλλοντικοί πόροι, προστασία και διατήρηση, ρύπανση περιβάλλοντος, αποθήκευση και επεξεργασία αποβλήτων, εκτίμηση περιβαλλοντικών επιπτώσεων, παρακολούθηση περιβαλλοντικού κινδύνου, φυσικά αποθέματα, τοπίο.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=geoscientificInformation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=geoscientificInformation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Γεωφυσικά χαρακτηριστικά και διεργασίες, γεωλογία, ορυκτά, επιστήμες που ασχολούνται με τη σύνθεση, τη δομή και την προέλευση των πετρωμάτων της γης, κίνδυνοι σεισμών, ηφαιστειακή δραστηριότητα, κατολισθήσεις, πληροφορίες βαρύτητας, εδάφη, πέρμαφροστ, υδρογεωλογία, διάβρωση.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=geology\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Earth sciences, geophysical features and processes, minerals, earthquake hazard, landslides, liquefaction, soil composition, permafrost, hydrogeology, erosion.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=geology\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Γεωφυσικές επιστήμες, γεωφυσικά χαρακτηριστικά και διεργασίες, σεισμοί. κατολισθήσεις, ρευστοποίηση, σύνθεση εδάφους, παγωμένο υπέδαφος, υδρολογία, διάβρωση.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=health\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Health, health services, human ecology, and safety.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=health\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Υγεία, υπηρεσίες υγείας, ανθρώπινη οικολογία και ασφάλεια.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=health\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Health, health services and safety.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=health\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Υγεία, υπηρεσίες υγείας και ασφάλεια.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=imageryBaseMapsEarthCover\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Land cover, topographic maps, imagery, unclassified images, annotations.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=imageryBaseMapsEarthCover\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Κάλυψη γης, τοπογραφικοί χάρτες, εικόνες, αταξινόμητες εικόνες , σχολιασμοί.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=housingAndDevelopment\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Locations of the municipal properties, strategic buildings.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=housingAndDevelopment\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Τοποθεσίες δημοτικών ακινήτων, στρατηγικών κτιρίων.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=biota&category__identifier__in=farming&category__identifier__in=environment\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat. Environmental resources, protection and conservation. Agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=biota&category__identifier__in=farming&category__identifier__in=environment\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Άγρια φύση, βλάστηση, βιολογικές επιστήμες, οικολογία, ερημιά, θαλάσσια ζωή, υγρότοποι, βιότοπος. Περιβαλλοντικοί πόροι, προστασία και διατήρηση. Γεωργία, άρδευση, υδατοκαλλιέργεια, φυτείες, βοσκή, παράσιτα και ασθένειες που πλήττουν τις καλλιέργειες και τα ζώα.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=population\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Population density, census information, demographic data.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=population\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Πυκνότητα πληθυσμού, πληροφορίες απογραφής, δημογραφικά δεδομένα.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=location\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Addresses, geodetic networks, control points, postal zones and services, place names.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=location\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Διευθύνσεις, γεωδαιτικά δίκτυα, σημεία ελέγχου, ταχυδρομικές ζώνες και υπηρεσίες, τοπωνύμια.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=publicSafety\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Public safety features, police stations and fire stations.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=publicSafety\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Δημόσια χαρακτηριστικά ασφαλείας, αστυνομικά τμήματα και πυροσβεστικοί σταθμοί.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=economy&category__identifier__in=society\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Settlements, anthropology, archaeology, education, traditional beliefs, demographic data, crime and justice, census information. Economic activities, conditions and employment.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=economy&category__identifier__in=society\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Οικισμοί, ανθρωπολογία, αρχαιολογία, εκπαίδευση, παραδοσιακές πεποιθήσεις, δημογραφικά δεδομένα, εγκληματικότητα και δικαιοσύνη, πληροφορίες απογραφής. Οικονομικές δραστηριότητες, συνθήκες και απασχόληση.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=publicServices\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Municipal, Energy, water and waste systems and communications infrastructure and services.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=publicServices\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Δημοτικές υπηρεσίες, Υποδομές και υπηρεσίες ηλεκτρισμού, ύδρευσης και αποχέτευσης και επικοινωνιών.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=transportation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=transportation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Δρόμοι, αεροδρόμια/διάδρομοι προσγείωσης-απογείωσης, ναυτιλιακές διαδρομές, σήραγγες, ναυτικοί χάρτες, τοποθεσία οχημάτων ή σκαφών, αεροναυτικοί χάρτες, σιδηρόδρομοι.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=recreation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Recreational areas and activities, parks, museums, churches, monuments.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=recreation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Χώροι και δραστηριότητες ψυχαγωγίας, πάρκα, μουσεία, εκκλησίες, μνημεία.\" >"
 
-msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=inlandWaters&category__identifier__in=oceans\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods. Water quality, hydrographic charts, tides, tidal waves, coastal information, reefs.\" >"
-msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=inlandWaters&category__identifier__in=oceans\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Ποτάμια και παγετώνες, αλμυρές λίμνες, σχέδια χρήσης νερού, φράγματα, ρεύματα, πλημμύρες. Ποιότητα νερού, υδρογραφικοί χάρτες, παλίρροια, παλιρροιακά κύματα, παράκτιες πληροφορίες, ύφαλοι.\" >"
+msgid "<a href=\"/search/?limit=100&offset=0&category__identifier__in=transportation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Road network, railway network, bridges, tunnels, traffic related data, public transportation networks, bicycle paths.\" >"
+msgstr "<a href=\"/search/?limit=100&offset=0&category__identifier__in=transportation\" data-toggle=\"tooltip\" data-placement=\"auto\" title=\"Οδικό δίκτυο, σιδηροδρομικό δίκτυο, γέφυρες, σήραγγες, δεδομένα σχετικά με την κυκλοφορία, δίκτυα δημόσιων συγκοινωνιών, ποδηλατόδρομοι.\" >"
 
 msgid "Create Map"
 msgstr "Δημιουργία Χάρτη"
