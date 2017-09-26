@@ -8,4 +8,3 @@ zinnia-wysiwyg-ckeditor
 zinnia-url-shortener-bitly
 django-app-namespace-template-loader
 zinnia-theme-bootstrap
-

@@ -70,3 +70,7 @@ section#contact h3 {
 .social-icons ul li{
   display: inline;
 }
+
+form input {
+    border:1px solid #555;
+}
