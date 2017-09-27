@@ -275,6 +275,78 @@
             "license_text":""
         }
     },
+    {
+        "pk": 8,
+        "model": "base.license",
+        "fields": {
+            "identifier":"",
+            "name":"Creative Commons CCZero",
+            "abbreviation":"CC0",
+            "description":"Intended to be a ‘public domain dedication’, i.e. a waiver of all rights including those of attribution.",
+            "url":"https://creativecommons.org/publicdomain/zero/1.0/",
+            "license_text":"https://creativecommons.org/publicdomain/zero/1.0/legalcode"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "base.license",
+        "fields": {
+            "identifier":"",
+            "name":"Open Data Commons Public Domain Dedication and Licence ",
+            "abbreviation":"PDDL",
+            "description":"Public Domain for data/databases",
+            "url":"https://opendatacommons.org/licenses/pddl/",
+            "license_text":"https://opendatacommons.org/licenses/pddl/1.0/"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "base.license",
+        "fields": {
+            "identifier":"",
+            "name":"Creative Commons Attribution 4.0",
+            "abbreviation":"CC-BY-4.0",
+            "description":"The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited.",
+            "url":"https://creativecommons.org/licenses/by/4.0/",
+            "license_text":"https://creativecommons.org/licenses/by/4.0/legalcode"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "base.license",
+        "fields": {
+            "identifier":"",
+            "name":"Open Data Commons Attribution License",
+            "abbreviation":"ODC-BY",
+            "description":"Attribution for Data(bases)",
+            "url":"https://opendatacommons.org/licenses/by/",
+            "license_text":"https://opendatacommons.org/licenses/by/1.0/"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "base.license",
+        "fields": {
+            "identifier":"",
+            "name":"Creative Commons Attribution Share-Alike 4.0",
+            "abbreviation":"CC-BY-SA-4.0",
+            "description":"The Creative Commons Attribution Share-Alike license allows re-distribution and re-use of a licensed work on the conditions that the creator is appropriately credited and that any derivative work is made available under “the same, similar or a compatible license”.",
+            "url":"https://creativecommons.org/licenses/by-sa/4.0/",
+            "license_text":"https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "base.license",
+        "fields": {
+            "identifier":"",
+            "name":"Open Data Commons Open Database License",
+            "abbreviation":"ODbL",
+            "description":"Attribution-ShareAlike for data(bases)",
+            "url":"https://opendatacommons.org/licenses/odbl/",
+            "license_text":"https://opendatacommons.org/licenses/odbl/1.0/"
+        }
+    },
      {
         "pk": 1, 
         "model": "base.restrictioncodetype", 
