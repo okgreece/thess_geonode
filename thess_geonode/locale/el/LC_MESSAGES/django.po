@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-09-26 09:44+0300\n"
+"PO-Revision-Date: 2017-10-01 12:25+0300\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -4474,3 +4474,9 @@ msgstr "<h3>Ένας κατάλογος γεωχωρικών δεδομένων 
 
 msgid "<a href=\"/account/login/\">Log in</a> to comment."
 msgstr "<a href=\"/account/login/\">Συνδεθείτε</a> για να σχολιάσετε."
+
+msgid "Forgot my username"
+msgstr "Ξέχασα το όνομα χρήστη"
+
+msgid "Forgot my password"
+msgstr "Ξέχασα τον κωδικό"
