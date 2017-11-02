@@ -456,9 +456,9 @@ TEMPLATES = [
                 'geonode.geoserver.context_processors.geoserver_urls',
             ],
             'loaders': [
-                'app_namespace.Loader',
                 'django.template.loaders.filesystem.Loader',
                 'django.template.loaders.app_directories.Loader',
+                'app_namespace.Loader',
             ],
             'debug': DEBUG,
         },
@@ -838,8 +838,8 @@ CKAN_ORIGINS = [{
 # https://dev.twitter.com/cards/getting-started
 # Be sure to replace @GeoNode with your organization or site's twitter handle.
 TWITTER_CARD = str2bool(os.getenv('TWITTER_CARD', 'True'))
-TWITTER_SITE = '@GeoNode'
-TWITTER_HASHTAGS = ['geonode']
+TWITTER_SITE = '@ThessGeonode'
+TWITTER_HASHTAGS = ['Resilience', 'Thessaloniki', 'Geonode']
 
 OPENGRAPH_ENABLED =  str2bool(os.getenv('OPENGRAPH_ENABLED', 'True'))
 

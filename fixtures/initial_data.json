@@ -1,6 +1,72 @@
 [
 {
         "pk": 1,
+        "model": "base.hierarchicalkeyword",
+        "fields": {
+            "name": "exposure",
+            "slug": "exposure",
+            "path": "0001",
+            "depth": "1",
+            "numchild": "0"
+        }
+    },
+{
+        "pk": 2,
+        "model": "base.hierarchicalkeyword",
+        "fields": {
+            "name": "general",
+            "slug": "general",
+            "path": "0002",
+            "depth": "1",
+            "numchild": "0"
+        }
+    },
+{
+        "pk": 3,
+        "model": "base.hierarchicalkeyword",
+        "fields": {
+            "name": "hazard",
+            "slug": "hazard",
+            "path": "0003",
+            "depth": "1",
+            "numchild": "0"
+        }
+    },
+{
+        "pk": 4,
+        "model": "base.hierarchicalkeyword",
+        "fields": {
+            "name": "resilience",
+            "slug": "resilience",
+            "path": "0004",
+            "depth": "1",
+            "numchild": "0"
+        }
+    },
+{
+        "pk": 5,
+        "model": "base.hierarchicalkeyword",
+        "fields": {
+            "name": "risk",
+            "slug": "risk",
+            "path": "0005",
+            "depth": "1",
+            "numchild": "0"
+        }
+    },
+{
+        "pk": 6,
+        "model": "base.hierarchicalkeyword",
+        "fields": {
+            "name": "vulnerability",
+            "slug": "vulnerability",
+            "path": "0006",
+            "depth": "1",
+            "numchild": "0"
+        }
+    },
+{
+        "pk": 1,
         "model": "base.topiccategory",
         "fields": {
             "description": "Βase maps, land cover, topographic maps, land descriptions, political and administrative boundaries, land use maps, zoning maps, cadastral surveys, land ownership.",
