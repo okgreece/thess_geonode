@@ -456,9 +456,9 @@ TEMPLATES = [
                 'geonode.geoserver.context_processors.geoserver_urls',
             ],
             'loaders': [
+                'app_namespace.Loader',
                 'django.template.loaders.filesystem.Loader',
                 'django.template.loaders.app_directories.Loader',
-                'app_namespace.Loader',
             ],
             'debug': DEBUG,
         },
