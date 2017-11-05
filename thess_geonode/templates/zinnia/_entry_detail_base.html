@@ -76,9 +76,15 @@
     <h5>{% trans "Share:" %}</h5>
     <ul class="social-icons icon-circle list-unstyled list-inline">
       <li>
+      {% if object.image %}
         <a href="https://www.facebook.com/sharer/sharer.php?s=100&p[title]={{ object.title }}&p[summary]={{ object.excerpt }}.&p[url]={{ object.short_url }}&p[images][0]={{ object.image.url }}" target="_blank">
           <i class="fa fa-facebook"></i>
         </a>
+       {% else %}
+       <a href="https://www.facebook.com/sharer/sharer.php?s=100&p[title]={{ object.title }}&p[summary]={{ object.excerpt }}.&p[url]={{ object.short_url }}" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+       {% endif %}
       </li>
       <li>
         <a href="https://twitter.com/intent/tweet?text={{ object.title }} - {{ object.short_url }}" class="meta-act-link meta-tweet" target="_blank">
