@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-25 02:27-0500\n"
-"PO-Revision-Date: 2017-10-01 12:25+0300\n"
+"PO-Revision-Date: 2017-11-05 20:58+0200\n"
 "Last-Translator: Evangelos Chondrokostas <echondrok@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/geonode/geonode/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -244,8 +244,8 @@ msgstr "τέλος χρονικής διάρκειας "
 msgid "Person outside GeoNode (fill form)"
 msgstr "Άτομο εκτός Geonode (συμπλήρωση φόρμας)"
 
-#: geonode/base/forms.py:109 geonode/base/templates/base/_resourcebase_contact_snippet.html:14 geonode/base/templates/base/resourcebase_info_panel.html:89 geonode/catalogue/templates/geonode_metadata_full.html:74 geonode/documents/templates/documents/document_metadata.html:33 geonode/documents/templates/documents/document_metadata.html:55 geonode/layers/templates/layers/layer_metadata.html:39 geonode/layers/templates/layers/layer_metadata.html:112
-#: geonode/maps/templates/maps/map_metadata.html:51
+#: geonode/base/forms.py:109 geonode/base/templates/base/_resourcebase_contact_snippet.html:14 geonode/base/templates/base/resourcebase_info_panel.html:89 geonode/catalogue/templates/geonode_metadata_full.html:74 geonode/documents/templates/documents/document_metadata.html:33 geonode/documents/templates/documents/document_metadata.html:55 geonode/layers/templates/layers/layer_metadata.html:39
+#: geonode/layers/templates/layers/layer_metadata.html:112 geonode/maps/templates/maps/map_metadata.html:51
 msgid "Point of Contact"
 msgstr "Σημείο Επικοινωνίας"
 
@@ -253,7 +253,8 @@ msgstr "Σημείο Επικοινωνίας"
 msgid "Metadata Author"
 msgstr "Συγγραφέας Μεταδεδομένων"
 
-#: geonode/base/forms.py:124 geonode/base/templates/base/resourcebase_info_panel.html:50 geonode/catalogue/templates/geonode_metadata_full.html:141 geonode/groups/models.py:64 geonode/people/templates/people/profile_detail.html:103 geonode/templates/metadata_detail.html:79 geonode/templates/metadata_detail.html:140 geonode/templates/metadata_detail.html:282 geonode/templates/metadata_detail.html:358 geonode/templates/search/_general_filters.html:19
+#: geonode/base/forms.py:124 geonode/base/templates/base/resourcebase_info_panel.html:50 geonode/catalogue/templates/geonode_metadata_full.html:141 geonode/groups/models.py:64 geonode/people/templates/people/profile_detail.html:103 geonode/templates/metadata_detail.html:79 geonode/templates/metadata_detail.html:140 geonode/templates/metadata_detail.html:282 geonode/templates/metadata_detail.html:358
+#: geonode/templates/search/_general_filters.html:19
 msgid "Keywords"
 msgstr "Λέξεις-κλειδιά"
 
@@ -807,7 +808,8 @@ msgstr "Αντικατάσταση"
 msgid "Remove"
 msgstr "Κατάργηση"
 
-#: geonode/documents/templates/documents/document_detail.html:145 geonode/documents/templates/documents/document_detail.html:181 geonode/layers/templates/layers/layer_detail.html:270 geonode/layers/templates/layers/layer_detail.html:343 geonode/layers/templates/layers/layer_detail.html:381 geonode/maps/templates/maps/map_detail.html:102 geonode/maps/templates/maps/map_detail.html:145 geonode/templates/_bulk_permissions_form.html:19
+#: geonode/documents/templates/documents/document_detail.html:145 geonode/documents/templates/documents/document_detail.html:181 geonode/layers/templates/layers/layer_detail.html:270 geonode/layers/templates/layers/layer_detail.html:343 geonode/layers/templates/layers/layer_detail.html:381 geonode/maps/templates/maps/map_detail.html:102 geonode/maps/templates/maps/map_detail.html:145
+#: geonode/templates/_bulk_permissions_form.html:19
 msgid "Close"
 msgstr "Close"
 
@@ -831,7 +833,8 @@ msgstr "Αυτό το κείμενο είναι σχετικό με"
 msgid "This document is not related to any maps or layers"
 msgstr "Αυτό το έγγραφο δε σχετίζεται με κανένα χάρτη ή επίπεδο"
 
-#: geonode/documents/templates/documents/document_detail.html:204 geonode/documents/templates/documents/document_upload.html:30 geonode/groups/templates/groups/group_detail.html:61 geonode/layers/templates/layers/layer_detail.html:454 geonode/layers/templates/layers/layer_replace.html:94 geonode/layers/templates/upload/layer_upload.html:112 geonode/maps/templates/maps/map_detail.html:191 geonode/people/admin.py:55
+#: geonode/documents/templates/documents/document_detail.html:204 geonode/documents/templates/documents/document_upload.html:30 geonode/groups/templates/groups/group_detail.html:61 geonode/layers/templates/layers/layer_detail.html:454 geonode/layers/templates/layers/layer_replace.html:94 geonode/layers/templates/upload/layer_upload.html:112 geonode/maps/templates/maps/map_detail.html:191
+#: geonode/people/admin.py:55
 msgid "Permissions"
 msgstr "Δικαιώματα"
 
@@ -1126,7 +1129,8 @@ msgstr "Χάρτες"
 msgid "Comments"
 msgstr "Σχόλια"
 
-#: geonode/groups/templates/groups/activity.html:36 geonode/groups/templates/groups/activity.html:45 geonode/groups/templates/groups/activity.html:54 geonode/groups/templates/groups/activity.html:63 geonode/social/templates/social/activity_list.html:31 geonode/social/templates/social/activity_list.html:40 geonode/social/templates/social/activity_list.html:49 geonode/social/templates/social/activity_list.html:58 geonode/templates/actstream/actor.html:28
+#: geonode/groups/templates/groups/activity.html:36 geonode/groups/templates/groups/activity.html:45 geonode/groups/templates/groups/activity.html:54 geonode/groups/templates/groups/activity.html:63 geonode/social/templates/social/activity_list.html:31 geonode/social/templates/social/activity_list.html:40 geonode/social/templates/social/activity_list.html:49 geonode/social/templates/social/activity_list.html:58
+#: geonode/templates/actstream/actor.html:28
 msgid "No actions yet"
 msgstr "Δεν υπάρχουν ακόμη ενέργειες"
 
@@ -3443,8 +3447,8 @@ msgid ""
 "    </ul>\n"
 "\n"
 "    <h3>What are OGC Services?</h3>\n"
-"    <p>The data in this application is served using open standards endorsed by the <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</a>; in particular, WMS (Web Map Service) is used for accessing maps, WFS (Web Feature Service) is used for accessing vector data, and WCS (Web Coverage Service) is used for accessing raster data.  WMC (Web Map Context Documents) is used for sharing maps. You can use these services in your own applications using "
-"libraries such as OpenLayers, GeoTools, and OGR (all of which are open-source software and available at zero cost).</p>\n"
+"    <p>The data in this application is served using open standards endorsed by the <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</a>; in particular, WMS (Web Map Service) is used for accessing maps, WFS (Web Feature Service) is used for accessing vector data, and WCS (Web Coverage Service) is used for accessing raster data.  WMC (Web Map Context Documents) is used for sharing maps. You can "
+"use these services in your own applications using libraries such as OpenLayers, GeoTools, and OGR (all of which are open-source software and available at zero cost).</p>\n"
 "\n"
 "    <h3>What is GeoWebCache?</h3>\n"
 "    <p>GeoWebCache provides mapping tiles that are compatible with a number of mapping engines, including Google Maps, Bing Maps and OpenLayers. All the data hosted by GeoNode is also available through GeoWebCache. GeoWebCache improves on WMS by caching data and providing more responsive maps.</p>\n"
@@ -3478,8 +3482,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"    <p><a href=\"http://geonode.org/\">Το GeoNode</a> είναι μία ανοικτή υπηρεσία χτισμένη πάνω σε λογισμικό ανοικτού κώδικα /open source software. Σας ενθαρρύνουμε να χτίσετε νέες εφαρμογές χρησιμοποιώντας τα δομοστοιχεία και τους πόρους που παρέχει. Αυτή η ιστοσελίδα είναι το σημείο εκκίνησης για προγραμματιστές που ενδιαφέρονται να εκμεταλλευτούν στο έπακρο το GeoNode. Επίσης συμπεριλαμβάνει συνδέσμους στο πηγαίο κώδικα του έργου ώστε οποιοσδήποτε να μπορεί να "
-"χτίσει και να τροποποιήσει το δικό του GeoNode. </p>\n"
+"    <p><a href=\"http://geonode.org/\">Το GeoNode</a> είναι μία ανοικτή υπηρεσία χτισμένη πάνω σε λογισμικό ανοικτού κώδικα /open source software. Σας ενθαρρύνουμε να χτίσετε νέες εφαρμογές χρησιμοποιώντας τα δομοστοιχεία και τους πόρους που παρέχει. Αυτή η ιστοσελίδα είναι το σημείο εκκίνησης για προγραμματιστές που ενδιαφέρονται να εκμεταλλευτούν στο έπακρο το GeoNode. Επίσης συμπεριλαμβάνει συνδέσμους στο "
+"πηγαίο κώδικα του έργου ώστε οποιοσδήποτε να μπορεί να χτίσει και να τροποποιήσει το δικό του GeoNode. </p>\n"
 "\n"
 "    <h3>Λογισμικό GeoNode</h3>\n"
 "\n"
@@ -3494,11 +3498,12 @@ msgstr ""
 "    </ul>\n"
 "\n"
 "    <h3>Τι είναι οι υπηρεσίες OGC?</h3>\n"
-"    <p>Τα δεδομένα σε αυτή την εφαρμογή διακομίζονται χρησιμοποιώντας ανοικτά πρότυπα που εγκρίνονται από το <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</a>; και συγκεκριμένα η υπηρεσία WMS (Web Map Service) χρησιμοποιείται για την πρόσβαση σε χάρτες, η WFS (Web Feature Service) χρησιμοποιείτε για την πρόσβαση σε διανυσματικά/vector δεδομένα, και η  WCS (Web Coverage Service) χρησιμοποιείται για την πρόσβαση σε πλεγματικά/raster δεδομένα.  η "
-"υπηρεσία WMC (Web Map Context Documents) χρησιμοποιείται για την διαμοίραση των χαρτών. Μπορείτε να χρησιμοποιήσετε αυτές τις υπηρεσίες και στις δικές σας εφαρμογές χρησιμοποιώντας βιβλιοθήκες όπως οι OpenLayers, GeoTools, και η OGR (οι οποίες είναι όλες λογισμικό ανοικτού κώδικα και διαθέσιμες με μηδενικό κόστος.).</p>\n"
+"    <p>Τα δεδομένα σε αυτή την εφαρμογή διακομίζονται χρησιμοποιώντας ανοικτά πρότυπα που εγκρίνονται από το <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</a>; και συγκεκριμένα η υπηρεσία WMS (Web Map Service) χρησιμοποιείται για την πρόσβαση σε χάρτες, η WFS (Web Feature Service) χρησιμοποιείτε για την πρόσβαση σε διανυσματικά/vector δεδομένα, και η  WCS (Web Coverage Service) "
+"χρησιμοποιείται για την πρόσβαση σε πλεγματικά/raster δεδομένα.  η υπηρεσία WMC (Web Map Context Documents) χρησιμοποιείται για την διαμοίραση των χαρτών. Μπορείτε να χρησιμοποιήσετε αυτές τις υπηρεσίες και στις δικές σας εφαρμογές χρησιμοποιώντας βιβλιοθήκες όπως οι OpenLayers, GeoTools, και η OGR (οι οποίες είναι όλες λογισμικό ανοικτού κώδικα και διαθέσιμες με μηδενικό κόστος.).</p>\n"
 "\n"
 "    <h3>Τι είναι η GeoWebCache?</h3>\n"
-"    <p>Η GeoWebCache προσφέρει/διαμοιράζει χαρτογαρφικά πλακίδια/mapping tiles τα οποία είναι συμβατά με μεγάλο αριθμό χαρτογραφικών μηχανών όπως οι Google Maps, Bing Maps και OpenLayers. Όλα τα δεδομένα που φιλοξενούνται από το Geonode είναι επίσης διαθέσιμα μέσω της GeoWebCache.Η  GeoWebCache βελτιώνει την υπηρεσία WMS με το να δημιουργεί cache δεδομένων και να προσφέρει πιο γρήγορα ανταποκρινόμενους χάρτες.</p>\n"
+"    <p>Η GeoWebCache προσφέρει/διαμοιράζει χαρτογαρφικά πλακίδια/mapping tiles τα οποία είναι συμβατά με μεγάλο αριθμό χαρτογραφικών μηχανών όπως οι Google Maps, Bing Maps και OpenLayers. Όλα τα δεδομένα που φιλοξενούνται από το Geonode είναι επίσης διαθέσιμα μέσω της GeoWebCache.Η  GeoWebCache βελτιώνει την υπηρεσία WMS με το να δημιουργεί cache δεδομένων και να προσφέρει πιο γρήγορα ανταποκρινόμενους χάρτες."
+"</p>\n"
 "\n"
 "    <h3>Παράδειγμα κώδικα CSW</h3>\n"
 "    <p>Για την διαλειτουργία με το CSW του GeoNode μπορεί να χρησιμοποιήσει κάποιος οποιονδήποτε πελάτη CSW (όπως π.χ. QGIS MetaSearch, GRASS, etc.).  Το παρακάτω παράδειγμα παρουσιάζει μια απλή κλήση χρησιμοποιώντας το πακέτο OWSLib της Python:</p>\n"
@@ -3512,8 +3517,8 @@ msgstr ""
 "\n"
 "    <h3>Παράδειγμα κώδικα OpenLayers</h3>\n"
 "\n"
-"    <p>Για να συμπεριλάβετε ένα επίπεδο χάρτη του GeoNode σαν ένα επίπεδο χάρτη OpenLayers, πρώτα βρείτε το όνομα για αυτό το επίπεδο. Αυτό βρίσκεται στο πεδίο <code>name</code>  του επιπέδου (όχι <code>title</code>) της λίστας του επιπέδου. Για το συγκεκριμένο παράδειγμα, θα χρησιμοποιήσουμε τα σύνορα της Νικαράγουας σαν επίπεδο υποβάθρου, το όνομα του οποίου είναι <code>risk:nicaragua_admin</code>. Μετά θα δημιουργήσουμε μια παρουσία/instance του OpenLayers.Layer."
-"WMS:</p>\n"
+"    <p>Για να συμπεριλάβετε ένα επίπεδο χάρτη του GeoNode σαν ένα επίπεδο χάρτη OpenLayers, πρώτα βρείτε το όνομα για αυτό το επίπεδο. Αυτό βρίσκεται στο πεδίο <code>name</code>  του επιπέδου (όχι <code>title</code>) της λίστας του επιπέδου. Για το συγκεκριμένο παράδειγμα, θα χρησιμοποιήσουμε τα σύνορα της Νικαράγουας σαν επίπεδο υποβάθρου, το όνομα του οποίου είναι <code>risk:nicaragua_admin</code>. Μετά θα "
+"δημιουργήσουμε μια παρουσία/instance του OpenLayers.Layer.WMS:</p>\n"
 "    <p><code>var geonodeLayer = new OpenLayers.Layer.WMS(\"GeoNode Risk Data\", \"http://demo.geonode.org/geoserver/wms\",{ layers: \"risk:nicaragua_admin\" });</code></p>\n"
 "\n"
 "    <h3>Παράδειγμα κώδικα Google Maps</h3>\n"
@@ -3856,8 +3861,8 @@ msgstr "Ένα έγγραφο έχει μεταφόρτωθει"
 msgid "The following document was deleted"
 msgstr "Το παρακάτω έγγραφο έχει διαγραφεί"
 
-#: geonode/templates/notification/document_deleted/full.txt:4 geonode/templates/notification/document_rated/full.txt:6 geonode/templates/notification/document_updated/full.txt:4 geonode/templates/notification/layer_deleted/full.txt:4 geonode/templates/notification/layer_rated/full.txt:6 geonode/templates/notification/layer_updated/full.txt:4 geonode/templates/notification/map_deleted/full.txt:4 geonode/templates/notification/map_rated/full.txt:6
-#: geonode/templates/notification/map_updated/full.txt:4
+#: geonode/templates/notification/document_deleted/full.txt:4 geonode/templates/notification/document_rated/full.txt:6 geonode/templates/notification/document_updated/full.txt:4 geonode/templates/notification/layer_deleted/full.txt:4 geonode/templates/notification/layer_rated/full.txt:6 geonode/templates/notification/layer_updated/full.txt:4 geonode/templates/notification/map_deleted/full.txt:4
+#: geonode/templates/notification/map_rated/full.txt:6 geonode/templates/notification/map_updated/full.txt:4
 msgid "owned by"
 msgstr "κατέχεται από "
 
@@ -4480,3 +4485,103 @@ msgstr "Ξέχασα το όνομα χρήστη"
 
 msgid "Forgot my password"
 msgstr "Ξέχασα τον κωδικό"
+
+# Blog Translations
+msgid "Share:"
+msgstr "Κοινοποίηση:"
+
+msgid "Tags"
+msgstr "Ετικέτες"
+
+msgid "Show all entries tagged by {{ tag }}"
+msgstr "Εμφάνιση όλων των καταχωρήσεων με ετικέτα {{ tag }}"
+
+msgid "No tags"
+msgstr "Δεν υπάρχουν ετικέτες"
+
+msgid "Short url"
+msgstr "Σύντομο url"
+
+msgid "Short URL to {{ object }}"
+msgstr "Σύντομο URL στο {{ object }}"
+
+msgid "Discussions"
+msgstr "Συζήτηση"
+
+msgid "Comments on {{ object }}"
+msgstr "Σχόλια στο {{ object }}"
+
+msgid "{{ comment_count }} comment{% plural %}{{ comment_count }} comments"
+msgstr "{{ comment_count }} σχόλιο{% plural %}{{ comment_count }} σχόλια"
+
+msgid "No comments yet."
+msgstr "Δεν υπάρχουν σχόλια."
+
+msgid "Leave a comment on {{ object }}"
+msgstr "Σχολιάστε στο {{ object }}"
+
+msgid "Be first to comment!"
+msgstr "Σχολιάστε πρώτοι!"
+
+msgid "Comments are closed."
+msgstr "Δεν επιτρέπονται σχόλια."
+
+msgid "Continue reading"
+msgstr "Συνέχεια ανάγνωσης"
+
+msgid "Last update on"
+msgstr "Τελευταία ενημέρωση στις"
+
+msgid "Written by"
+msgstr "Συντάχθηκε από"
+
+msgid "on date"
+msgstr "στις"
+
+msgid "Written on"
+msgstr "Συντάχθηκε στις"
+
+msgid "Related entries"
+msgstr "Σχετικές καταχωρήσεις"
+
+msgid "Similar entries"
+msgstr "Παρόμοιες καταχωρήσεις"
+
+msgid "Direct link to this comment"
+msgstr "Άμεσος σύνδεσμος σε αυτό το σχόλιο"
+
+msgid "Edit the entry"
+msgstr "Επεξεργασία καταχώρησης"
+
+msgid "Authors"
+msgstr "Συγγραφείς"
+
+msgid "Recent entries"
+msgstr "Πρόσφατες καταχωρήσεις"
+
+msgid "Recent comments"
+msgstr "Πρόσφατα σχόλια"
+
+msgid "Random entries"
+msgstr "Τυχαίες καταχωρήσεις"
+
+msgid "Popular entries"
+msgstr "Δημοφιλείς καταχωρήσεις"
+
+msgid "Tools"
+msgstr "Εργαλεία"
+
+msgid "Post an entry"
+msgstr "Δημοσίευση καταχώρησης"
+
+msgid "No entries yet."
+msgstr "Δεν υπάρχουν ακόμα καταχωρήσεις."
+
+msgid "Edit the category"
+msgstr "Επεξεργασία κατηγορίας"
+
+msgid "Edit the tag"
+msgstr "Επεξεργασία ετικέτας"
+
+msgid "Edit the author"
+msgstr "Επεξεργασία συγγραφέα"
