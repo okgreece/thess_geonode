@@ -74,3 +74,7 @@ section#contact h3 {
 form input {
     border:1px solid #555;
 }
+
+form#signup_form div.form-group {
+    margin-left: 0px;
+}
