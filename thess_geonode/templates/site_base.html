@@ -81,11 +81,6 @@
           </ul>
         </div>
         <div class="col-md-4 text-right">
-          <ul class="list-unstyled">
-            <li>Powered by <a href="http://geonode.org">GeoNode</a> {{ VERSION }} <!--<em>{% trans "version" %} {{ VERSION }}</em>--></li>
-            <li>Supported by <a href="http://okfn.gr/">Open Knowledge Greece</a> and <a href="http://eofarm.com/">EOfarm</a><li>
-            <!--<li><a href="{% url "developer" %}">{% trans "Developers" %}</a> | <a href="{% url "about" %}">{% trans "About" %}</a><li>-->
-          </ul>
           <label class="hidden">{% trans "Language" %}</label>
           {% if csrf_token != "NOTPROVIDED" %}
           {% get_current_language as LANGUAGE %}
@@ -100,6 +95,14 @@
             </select>
           </form>
           {% endif %}
+        </div>
+      </div>
+      <div>
+        <hr style=" width:75%; border-top:1px solid #838383;">
+        <div>Powered by <a href="http://geonode.org">GeoNode</a> {{ VERSION }}
+          <span style="float:right;">
+            Supported by <a href="http://okfn.gr/">Open Knowledge Greece</a> & <a href="http://eofarm.com/">EOfarm</a>
+          </span>
         </div>
       </div>
     </div>
