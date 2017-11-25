@@ -66,16 +66,10 @@
                 <li><a href="/search/?limit=100&offset=0&keywords__slug__in=vulnerability">{% trans "Vulnerability" %}</a></li>
                 <li><a href="/search/?limit=100&offset=0&keywords__slug__in=risk">{% trans "Risk" %}</a></li>
                 <li><a href="/search/?limit=100&offset=0&keywords__slug__in=resilience">{% trans "Resilience" %}</a></li>
+                <li><a href="/search/?limit=100&offset=0&keywords__slug__in=osm">{% trans "OpenStreetMaps" %}</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="{% url "layer_browse" %}">{% trans "Layers" %}</a></li>
                 <li><a href="{% url "document_browse" %}">{% trans "Documents" %}</a></li>
-                <!--<li class="dropdown-submenu">-->
-                  <!--<a href="#">{% trans "Categories" %}<i class="fa fa-angle-right fa-lg fa-fw"></i></a>-->
-                  <!--<ul class="dropdown-menu">-->
-                    <!--<li><a href="#">3rd level dropdown</a></li>-->
-                    <!--<li><a href="#">3rd level dropdown</a></li>-->
-                  <!--</ul>-->
-                <!--</li>-->
                 {% if user.is_authenticated %}
                 <li><a href="{% url "services" %}">{% trans "Remote Services" %}</a></li>
                 <li role="separator" class="divider"></li>
@@ -219,6 +213,7 @@
                 <li><a href="/search/?limit=100&offset=0&keywords__slug__in=vulnerability">{% trans "Vulnerability" %}</a></li>
                 <li><a href="/search/?limit=100&offset=0&keywords__slug__in=risk">{% trans "Risk" %}</a></li>
                 <li><a href="/search/?limit=100&offset=0&keywords__slug__in=resilience">{% trans "Resilience" %}</a></li>
+                <li><a href="/search/?limit=100&offset=0&keywords__slug__in=osm">{% trans "OpenStreetMaps" %}</a></li>
               </ul>
             </div>
             <div class="col-md-2">
