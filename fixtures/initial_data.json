@@ -66,6 +66,17 @@
         }
     },
 {
+        "pk": 7,
+        "model": "base.hierarchicalkeyword",
+        "fields": {
+            "name": "osm",
+            "slug": "osm",
+            "path": "0007",
+            "depth": "1",
+            "numchild": "0"
+        }
+    },
+{
         "pk": 1,
         "model": "base.topiccategory",
         "fields": {
