@@ -39,19 +39,15 @@ to:
 
 Add the "Directory" directive for your folder like the following example:
 
-> <Directory /home/{your_username}/thess_geonode/thess_geonode/">
->
-> > Order allow,deny
-> >
-> > Options Indexes FollowSymLinks
-> >
-> > Allow from all
-> >
-> > Require all granted
-> >
-> > IndexOptions FancyIndexing
->
-> </Directory>
+```
+<Directory /home/{your_username}/thess_geonode/thess_geonode/">
+   Order allow,deny
+   Options Indexes FollowSymLinks
+   Allow from all
+   Require all granted
+   IndexOptions FancyIndexing
+</Directory>
+```
 
 Install all the packages from requirments.txt that isn't already installed (used pycharm IDE) and migrate
 
