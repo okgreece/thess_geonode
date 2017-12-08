@@ -186,4 +186,10 @@ urlpatterns += patterns('',
                         url(r'^blog/', include('zinnia.urls', namespace='zinnia')),
                         url(r'^comments/', include('django_comments.urls')),
                         url(r'^ckeditor/', include('ckeditor_uploader.urls')),
-)
+                        )
+
+# About platform patterns
+
+urlpatterns += patterns('',
+                        url(r'^portal_about$', TemplateView.as_view(template_name='portal.html'), name='portal_about'),
+                        )

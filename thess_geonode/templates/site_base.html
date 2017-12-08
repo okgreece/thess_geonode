@@ -70,13 +70,21 @@
             {% endif %}
           </ul>
         </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>{% trans "Useful Sites" %}</li>
+            <li><a href="http://thessaloniki.gr">{% trans "Municipality of Thessaloniki" %}</a></li>
+            <li><a href="https://opendata.thessaloniki.gr">{% trans "Open Data Portal" %}</a></li>
+            <li><a href="http://gis.thessaloniki.gr/sdi/intro/">{% trans "SDI Platform" %}</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 text-right">
           <label class="hidden">{% trans "Language" %}</label>
           {% if csrf_token != "NOTPROVIDED" %}
           {% get_current_language as LANGUAGE %}
           <form class="form-inline" action="/i18n/setlang/" method="post">
           {% csrf_token %}
-            <select class="col-md-6 pull-right" name="language" onchange="javascript:form.submit()">
+            <select class="col-md-10 pull-right" name="language" onchange="javascript:form.submit()">
               {% for lang in LANGUAGES %}
               <option value="{{ lang.0 }}" {% ifequal LANGUAGE_CODE lang.0 %} selected="selected"{% endifequal %}>
                 {{ lang.1 }}
@@ -86,7 +94,7 @@
           </form>
           {% endif %}
         </div>
-      </div>
+        </div>
       <div>
         <hr style=" width:75%; border-top:1px solid #838383;">
         <div>Powered by <a href="http://geonode.org">GeoNode</a> {{ VERSION }}
