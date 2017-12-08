@@ -114,3 +114,20 @@ save, make sure the file is also removed from git cache:
 confirm the file is no longer staged for the next commit or that if it
 is as "removed"
 
+GPL License
+===========
+
+Thess_Geonode is Copyright 2017 Open Source Geospatial Foundation (OSGeo), Open Knowledge Greece, EOfarm P.C.
+
+Thess_Geonode is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Thess_Geonode is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with GeoNode.  If not, see <http://www.gnu.org/licenses/>.
