@@ -1,6 +1,6 @@
 ---
-- hosts: localhost
-  remote_user: geonode
+- hosts: production
+  remote_user: root
   gather_facts: no
   pre_tasks:
     - name: 'install python2'
@@ -10,8 +10,8 @@
   vars:
     app_name: thess_geonode
     github_user: okgreece 
-    server_name: thessgeonode.okfn.gr
+    server_name: riskdata.thessaloniki.gr
     repo_name: thess_geonode
-    deploy_user: geonode
+    deploy_user: root
   roles:
      - { role: GeoNode.geonode }
