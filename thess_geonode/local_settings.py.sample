@@ -72,6 +72,9 @@ LANGUAGE_CODE = 'en-us'
 MEDIA_ROOT = '/var/www/geonode/uploaded'
 STATIC_ROOT = '/var/www/geonode/static/'
 
+# Add allowed hosts
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', ['localhost', ])
+
 # secret key used in hashing, should be a long, unique string for each
 # site.  See http://docs.djangoproject.com/en/1.2/ref/settings/#secret-key
 SECRET_KEY = '' # Find SECRET_KEY at /etc/geonode/local_setting.py
