@@ -5,7 +5,6 @@ Paver==1.2.4
 Unidecode==0.4.21
 amqp==1.4.9
 anyjson==0.3.3
-awesome-slugify==1.6.2
 beautifulsoup4==4.4.1
 billiard==3.3.0.23
 boto==2.48.0
